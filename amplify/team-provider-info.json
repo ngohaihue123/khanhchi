@@ -1,0 +1,23 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-khanhchi-prod-105640-authRole",
+            "UnauthRoleArn": "arn:aws:iam::990122246312:role/amplify-khanhchi-prod-105640-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::990122246312:role/amplify-khanhchi-prod-105640-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-khanhchi-prod-105640-deployment",
+            "UnauthRoleName": "amplify-khanhchi-prod-105640-unauthRole",
+            "StackName": "amplify-khanhchi-prod-105640",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:990122246312:stack/amplify-khanhchi-prod-105640/65ab8cf0-2f9b-11eb-8c62-0ab74521b02e",
+            "AmplifyAppId": "d2eeteslu9xwm1"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2eeteslu9xwm1",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

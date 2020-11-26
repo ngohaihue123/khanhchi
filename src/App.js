@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import { Image } from 'antd';
+import AVARTA from './assets/images/khanhchi.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ position: 'relative' }}>
+      <div style={{ top: '50%', left: '50%', position: 'absolute' }}>
+        <Image src={AVARTA} width={60} height={60}></Image>
+        <h4> Hi! I'm Khanh Chi</h4>
+      </div>
     </div>
   );
 }
